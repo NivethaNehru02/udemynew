@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+    font-family: "Gabarito", serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__sec1__title {
+    color: #A235ED;
+}
+
+.navbar__sec2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 300Px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.navbar__sec2 input {
+    width: 100%;
+    border: none;
+}
+
+.navbar__sec2 input:focus {
+    outline: none;
+}
+
+.navbar__sec3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.categories p {
+    background-color: #A235ED;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.sales__image img {
+    width: 100%;
+
+}
+
+.recommended {
+  
+    padding: 1px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+
+justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 1px;
+    size: 50px;
+
+    
+   
+}
+
+.recommended__card1 img {
+    width: 300px;
+    height: 200px;
+}
+
+.recommended__card2 img {
+    width: 300px;
+    height: 200px;
+}
+
+.recommended__card3 img {
+    width: 300px;
+    height: 200px;
+}
+
+.recommended__card4 img {
+    width: 300px;
+    height: 200px;
+}
+
+.Topics__title{padding: 10px;}
+.Topics__list{display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.Topics__list p{border: solid  black 1px;
+padding: 10px;
+flex-grow: 1;
+flex-basis: 25%;
+
+
+
+
+}
+.Popular__title{ padding: 1px;
+}
+
+.Popular__list{padding: 1px;
+    flex-wrap: wrap;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+
+justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 1px;
+    size: 50px;
+    
+}
+
+.Popular__card1 img,.Popular__card2 img,.Popular__card3 img,.Popular__card4 img,.Popular__card5 img,.Popular__card6 img,.Popular__card7 img,.Popular__card8 img ,.Popular__card9 img,.Popular__card10 img{width: 300px;
+    height: 200px;
+}
+
+.footer{padding: 30px;
+background-color: black;
+color: white;
+gap: 10px;}
+.footer__one p{margin: 20px;}
+
+.footer__two p{margin: 20px ;
+align-items: center;}
+
+.footer__one{display: flex;}
+
+.footer__two{display:flex;
+    justify-content: space-between; }
